@@ -1,44 +1,147 @@
-\documentclass[11pt,a4paper,sans]{moderncv}
-\moderncvstyle{banking}
-\moderncvcolor{blue}
+%%%%%%%%%%%%%%%%%
+% This is a two-column CV template based on moderncv.cls
+% (v1.0, May 16, 2024) written by Genki Ogaki (rockstarogk@gmail.com). Compiles with XeLaTeX.
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+% environment
+\documentclass[10pt,a4paper,hidelinks,unicode]{moderncv}
+\moderncvtheme[blue]{banking}
+\nopagenumbers{}
+
+\usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.85]{geometry}
+\usepackage{tabularx}
+\usepackage{mathpazo}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome5}
 
-\firstname{Rana}
+% macro
+\renewcommand*{\labelitemi}{-}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+
+\newcommand*{\experienceentry}[5][1.5mm]{
+    \subsection{#2} \vspace{-1.5mm}
+    \begin{tabularx}{\textwidth}{LR}
+        {\itshape #3} & {\itshape #4, #5}
+    \end{tabularx}
+    \par\addvspace{#1}
+}
+
+\newcommand*{\educationentry}[4][0.5mm]{
+    \begin{tabularx}{\textwidth}{LR}
+        {\bfseries #3} & {\bfseries #4} \\
+    \end{tabularx}
+    {\itshape #2}
+    \par\addvspace{#1}
+}
+
+\newcommand*{\scoreentry}[3][2.5mm]{
+    {\bfseries #2} \\
+    {\itshape #3}
+    \par\addvspace{#1}
+}
+
+% preamble
+\firstname{Rana Nilesh}
 \familyname{Vanikar}
-\address{Pune, Maharashtra, India}
-\email{rana.vanikar@gmail.com}
-\homepage{linkedin.com/in/rana-vanikar}
+\address{Pune, Maharashtra}{}
+
+% document
 \begin{document}
-\makecvtitle
+\maketitle
+\vspace{-10.0mm}
+\begin{tabularx}{\textwidth}{C C C}
+    \emailsymbol\enspace \href{mailto:rana.vanikar@gmail.com}{rana.vanikar@gmail.com} & \mobilephonesymbol\enspace \href{tel:+918380099014}{+91 8380099014} & \faLinkedin\enspace \href{https://www.linkedin.com/in/rana-vanikar/}{linkedin.com/in/rana-vanikar}
+\end{tabularx}
+\vspace{-5.0mm}
 
-\section{Summary}
-As a cybersecurity enthusiast focusing on networking and network security, I am an undergraduate at PICT with a solid IT infrastructure foundation. My expertise is adeptly handling Linux systems, Windows Systems, networking devices, and IOT Devices, complemented by practical experience with leading cloud service providers. I am keen to apply my skills in cybersecurity and  networking aiming to contribute to and grow within a forward-thinking organization 
+% left column
+\begin{minipage}[t]{0.62\textwidth}
+\section{EXPERIENCE}
+\experienceentry{Cybage Software}{Application Security Tester (Intern)}{Dec 2023 - Feb 2024}{Kalyani Nagar, Pune, Maharashtra}
 
-\section{Experience}
-\cventry{Dec 2023-- Feb 2023}{Application Security Tester}{Cybage Software}{}{}{Internship - CyberSecurity}
-\cventry{Jul 2023--Present}{Technical Head}{PICT CyberCell}{}{}{}
-\cventry{Dec 2022--Present}{Cyber Security Core Team Member}{Developer Student Clubs PICT}{}{}{}
-\cventry{Mar 2022--May 2023}{Electrical Team}{Torqscrew | The PICT Automobile Club}{}{}{}
-\cventry{Feb 2022--Mar 2022}{Student partner - ISP 27}{Internshala}{}{}{}
+\textbf{Application Security Testing}
+\begin{itemize}
+    \item Conducted Static Application Security Testing (SAST) using SonarQube.
+    \item Performed Software Composition Analysis (SCA) with Cyclone DX and Dependency Track.
+    \item Executed Dynamic Application Security Testing (DAST) and Vulnerability Assessment and Penetration Testing (VAPT) using industry-standard tools and followed the OWASP Web Security Testing guide.
+    \item Set up and configured tools using Docker and Proxmox, including creating virtual environments for testing.
+    \item Prepared comprehensive security testing reports detailing findings and recommendations.
+\end{itemize}
+\vspace{2.0mm}
 
-\section{Education}
-\cventry{Dec 2021--Jul 2025}{BE - Electronics and Telecommunication Engineering}{Pune Institute of Computer Technology}{}{}{}
-\cventry{Jun 2019--Apr 2021}{HSC, Science (PCM)}{Shikshan Prasarak Mandalis Sir Parshurambhau College}{}{}{}
-\cventry{2013--2019}{10th}{Millennium National School}{}{}{}
+\experienceentry{PICT CyberCell}{Technical Head}{Jul 2023 - Present}{PICT}
 
-\section{Skills}
-\cvlistdoubleitem{Cybersecurity}{IT Operations}
-\cvlistdoubleitem{C/C++}{Python}
-\cvlistdoubleitem{DBMS}{DevOps/DevSecOps}
-\cvlistdoubleitem{Internet of Things (IoT)}{Cloud Computing}
-\cvlistdoubleitem{Network Security}{Computer Networking}
-\cvlistdoubleitem{Digital Marketing}
+\textbf{Technical Leadership and Event Management}
+\begin{itemize}
+    \item Led technical operations for events, including the deployment and management of websites and vulnerable VMs for Capture the Flag (CTF) competitions.
+    \item Managed network monitoring and security for major events, such as the CTF event conducted by IIT Bombay Trust Labs and HSBC.
+    \item Conducted sessions and seminars on networking and cybersecurity tools, including Nmap and Wireshark.
+\end{itemize}
+\vspace{2.0mm}
 
-\section{Licenses \& Certifications}
-\cvlistitem{Cyber Security \& Ethical Hacking - Udgam}
-\cvlistitem{Cyber Security \& Ethical Hacking - Coincent.ai}
-\cvlistitem{Digital Marketing - Internshala}
-\cvlistitem{Nmap for Ethical Hackers - The Ultimate Hands-On Course - Udemy}
+\experienceentry{PICT Automobile Club - Torqscrew}{Electrical Head}{Mar 2022 - Mar 2023}{PICT}
+
+\textbf{Electrical System Design for Electric Go-Kart}
+\begin{itemize}
+    \item Designed and implemented electrical systems, including battery management, motor controller integration, and wiring harnesses.
+    \item Ensured the safety and reliability of the electrical components and systems.
+    \item Managed the integration of small electronic components like tail lights and safety switches.
+\end{itemize}
+\vspace{2.0mm}
+
+\section{PROJECTS}
+
+\textbf{IoT Powered Power Over Ethernet (PoE) Device}
+\begin{itemize}
+    \item Developed an IoT-powered PoE injector with integrated sensors and a microcontroller to measure and report power transmission data to a dashboard.
+    \item Created a PoE extractor for devices that do not support PoE, enabling them to be powered over the network.
+\end{itemize}
+\vspace{2.0mm}
+
+\end{minipage}
+\hfill
+% right column
+\begin{minipage}[t]{0.35\textwidth}
+\section{SUMMARY}
+As a passionate cybersecurity and networking enthusiast, I am an undergraduate engineering student at PICT specializing in Electronics and Telecommunications (EnTC). With hands-on experience in IT infrastructure, Linux and Windows systems, networking devices, and cloud platforms, I am dedicated to applying my cybersecurity skills to protect and optimize network systems. Currently seeking internships in cybersecurity, networking, DevOps, and cloud domains to leverage my knowledge and contribute to a forward-thinking organization.
+
+\section{SKILLS}
+\begin{tabularx}{\textwidth}{>{\bfseries}l@{\hskip 3.5mm}L}
+Cybersecurity & Network Security, Web App Security \\
+Programming Languages & Python, C++ \\
+DBMS & MySQL \\
+Computer Networking & Networking Gear\\
+DevOps & Docker \\
+Cloud Computing & AWS, GCP \\
+Other Skills & Digital Marketing \\
+Languages & English, Hindi, Marathi \\
+\end{tabularx}
+
+\section{EDUCATION}
+\educationentry{Bachelor of Engineering - Electronics and Tele-Communications (EnTC)}{Pune Institute of Computer Technology (PICT)}{Dec 2021 - Jun 2025 (Tentative)}{}
+CGPA: 8.52/10
+
+\educationentry{Higher Secondary Certificate (HSC)}{Sir Parshurambhau College}{2019 - 2021}{}
+Percentage: 82.3\%
+
+\educationentry{CBSE}{Millennium National School}{2019}{Pune, Maharashtra}
+Percentage: 92.8\%
+
+
+
+\end{minipage}
 
 \end{document}
