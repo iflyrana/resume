@@ -1,0 +1,145 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+    \usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Rana N. Vanikar}}\\
+	Pune, Maharashtra, India $\cdot$ rana.vanikar@outlook.com $\cdot$ +91 8380099014 $\cdot$ www.linkedin.com/in/rana-vanikar/\\
+\end{center}
+
+%==== Education ====%
+\header{Education}
+\textbf{Pune Institute of Computer Technology (SPPU)}\hfill Pune, Maharashtra, India\\
+BE Electronics and Telecommunications \textit{GPA: 8.76} \hfill Dec 2021 - July 2025 (Expected)\\
+\vspace{2mm}
+\textbf{SP College Pune}\hfill Pune, Maharashtra, India\\
+High School (HSC) PCM \textit{GPA: 82.83\%} \hfill June 2019 - May 2021\\
+\vspace{2mm}
+
+%==== Experience ====%
+\header{Work Experience}
+\vspace{1mm}
+
+\textbf{Uniken INC} \hfill Pune, Maharashtra, India\\
+\textit{Intern - Mobile Application Security Tester} \hfill Aug 2024 - Nov 2024\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Identifying potential threats and vulnerabilities in applications
+	\item Static and Dynamic analysis
+	\item Implementing robust security measures
+	\item Conduct security audits and penetration testing to ensure the safety of applications
+	\item Followed OWASP Top 10
+\end{itemize}
+\textbf{Cybage Software} \hfill Pune, Maharashtra, India\\
+\textit{Intern - Web Application Security Tester} \hfill Dec 2023 - Feb 2024\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item SAST (Static Application Security Testing)
+	\item SCA (Software Composition Analysis)
+	\item DAST (Dynamic Application Security Testing)/Pen Testing
+	\item Preparation of reports
+	\item Followed OWASP Top 10 and OWASP WSTG
+\end{itemize}
+\textbf{PICT CyberCell} \hfill PICT, Pune\\
+\textit{Technical Head} \hfill July 2023 - Aug 2024\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Conducted workshops for Computer Networks and Network Security
+	\item Created and Managed club events including CTF, Workshops, SIG etc
+	\item Implemented network access solution for IITB+HSBC organized CTF event
+\end{itemize}
+
+\header{Skills}
+\begin{tabular}{ l l }
+	Programming Languages: & Python, Javascript, OOPS, Bash, Ansible                                         \\
+	CyberSecurity:         & OWASP top 10, Web and Android App Security, DevSecOps, Secure Cloud Deployments \\
+	Others:                & DBMS(SQL), Operating Systems, DevOps, Docker, CI/CD, Git                        \\
+	Cloud Platforms:       & GCP, AWS, Azure, DigitalOcean, Hetzener                                         \\
+\end{tabular}
+\vspace{2mm}
+
+\header{Projects}
+{\textbf{Home Lab}} {\sl Routers, Layer 3 switches, wireless access points, Proxmox node, Ansible, Zabbix} \\
+Built and managed a home lab with virtual machines and containers for hands-on experimentation in networking, cybersecurity, and system optimization. The setup provided a robust platform for enhancing technical expertise and efficient configuration management.\\
+\vspace*{2mm}
+{\textbf{IoT Powered Power Over Ethernet Injector and Extractor}} {\sl ESP32, ACS712, Azure, Grafana, InfluxDB} \\
+Developed an IoT-enabled Power over Ethernet (PoE) system with real-time power monitoring, custom PCBs for power injection and extraction, and a cloud-based dashboard for data visualization. Ensured reliability through rigorous testing and optimized performance for seamless power and data transmission.\\
+\vspace*{2mm}
+{\textbf{Multiple 3D printer orchestration}} {\sl RaspberryPI, AWS (For VPN Tunnel), Servo Motors, Ender3 3D printers} \\
+Developed a system for managing multiple 3D printers with centralized control through a secure web interface. Enabled remote access via a cloud-hosted VPN and designed a servo-powered gimbal for a single camera to monitor all printers. Streamlined operations with efficient and secure remote management.\\
+\vspace*{2mm}
+
+
+
+\ 
+\end{document}
