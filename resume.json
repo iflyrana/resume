@@ -1,0 +1,192 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "skills": "Skills",
+    "work": "Work Experience",
+    "education": "Education",
+    "projects": "Projects"
+  },
+  "basics": {
+    "name": "Rana N. Vanikar",
+    "email": "rana.vanikar@outlook.com",
+    "phone": "+91 8380099014",
+    "location": {
+      "address": "Pune, Maharashtra, India"
+    },
+    "website": "www.linkedin.com/in/rana-vanikar/"
+  },
+  "education": [
+    {
+      "area": "Electronics and Telecommunications",
+      "studyType": "BE",
+      "startDate": "Dec 2021",
+      "endDate": "July 2025 (Expected)",
+      "gpa": "8.76",
+      "institution": "Pune Institute of Computer Technology (SPPU)",
+      "location": "Pune, Maharashtra, India"
+    },
+    {
+      "institution": "SP College Pune",
+      "location": "Pune, Maharashtra, India",
+      "studyType": "High School (HSC)",
+      "area": "PCM",
+      "gpa": "82.83%",
+      "startDate": "June 2019",
+      "endDate": "May 2021"
+    }
+  ],
+  "work": [
+    {
+      "location": "Pune, Maharashtra, India",
+      "position": "Intern - Mobile Application Security Tester",
+      "website": "",
+      "startDate": "Aug 2024",
+      "endDate": "Nov 2024",
+      "highlights": [
+        "Conducted static & dynamic analysis of Android applications using industry-standard tools.",
+        "Evaluated application vulnerabilities and reported security flaws with remediation steps.",
+        "Applied OWASP Mobile Top 10 techniques to assess security vulnerabilities in Android applications."
+      ],
+      "company": "Uniken INC"
+    },
+    {
+      "highlights": [
+        "Automated SAST & SCA integration into CI/CD pipelines, optimizing security workflows and enhancing DevSecOps practices",
+        "Performed manual DAST and API penetration testing following OWASP standards.",
+        "Compiled security testing reports and recommended fixes to improve web application security."
+      ],
+      "company": "Cybage Software",
+      "position": "Intern - Cybersecurity",
+      "location": "Pune, Maharashtra, India",
+      "startDate": "Dec 2023",
+      "endDate": "Feb 2024"
+    },
+    {
+      "highlights": [
+        "Conducted workshops on advanced topics such as DevSecOps, Computer Networking and Network Security",
+        "Deployed and automated cloud infrastructure for CTF events and workshops, ensuring seamless operations.",
+        "Engineered scalable, secure network access solutions for IITB+HSBC CTF events, ensuring high availability and security."
+      ],
+      "company": "PICT CyberCell",
+      "position": "Technical Head",
+      "location": "PICT, Pune",
+      "startDate": "July 2023",
+      "endDate": "Aug 2024"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming and Scripting ",
+      "level": "",
+      "keywords": [
+        "Python",
+        "JavaScript",
+        "C/C++",
+        "Bash"
+      ]
+    },
+    {
+      "keywords": [
+        "DBMS(MySQL)",
+        "OS",
+        "Networking",
+        "DevOps",
+        "CI/CD",
+        "Cloud Computing"
+      ],
+      "name": "Essentials"
+    },
+    {
+      "keywords": [
+        "Ansible",
+        "Docker",
+        "Git",
+        "Zabbix",
+        "Grafana",
+        "Kubernetes"
+      ],
+      "name": "Tools and Services"
+    },
+    {
+      "keywords": [
+        "AWS",
+        "Azure",
+        "DigitalOcean",
+        "Proxmox"
+      ],
+      "name": "Cloud"
+    },
+    {
+      "keywords": [
+        "OWASP",
+        "MITRE ATT&CK",
+        "Bug Hunting",
+        "Incident Response"
+      ],
+      "name": "Cybersecurity"
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [
+        "Routers",
+        "Layer 3 switches",
+        "wireless access points",
+        "Proxmox node",
+        "Ansible",
+        "Zabbix"
+      ],
+      "name": "Home Lab",
+      "description": "Built and manage a home lab with virtual machines and containers for hands-on DevOps and DevSecOps experimentation. Automated infrastructure management using Ansible, and monitoring system performance using Grafana, InfluxDB and RestAPI."
+    },
+    {
+      "keywords": [
+        "Python",
+        "AI/ML",
+        "Scapy",
+        "Wireshark",
+        "L3 Managed Switch"
+      ],
+      "name": "AI Powered Deep Packet Analyzer",
+      "description": "Currently working on an AI-driven network security model for real-time packet inspection and anomaly detection using Python, Scapy, and Wireshark. The project aims to classify network packets based on signatures, protocols, and traffic patterns to detect security threats proactively. A research paper on the findings is in progress and set to be published in Springer LNNS, focusing on the effectiveness of AI in enhancing cybersecurity defenses."
+    },
+    {
+      "keywords": [
+        "ESP32",
+        "ACS712",
+        "Azure",
+        "Grafana",
+        "InfluxDB"
+      ],
+      "name": "IoT Powered Power Over Ethernet Injector and Extractor",
+      "description": "Developed an IoT-enabled Power over Ethernet (PoE) system with real-time power monitoring and a cloud-based dashboard for data visualization. Integrated seamlessly with existing network infrastructure, enabling real-time monitoring."
+    },
+    {
+      "keywords": [
+        "RaspberryPI",
+        "AWS (For VPN Tunnel)",
+        "Servo Motors",
+        "Ender3 3D printers"
+      ],
+      "name": "Multiple 3D Printer Orchestration",
+      "description": "Developed a system for managing multiple 3D printers with centralized control and secure remote access. Automated monitoring and job scheduling, optimizing efficiency and reducing manual intervention."
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
