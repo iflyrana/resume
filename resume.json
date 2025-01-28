@@ -121,7 +121,9 @@
         "OWASP",
         "MITRE ATT&CK",
         "Bug Hunting",
-        "Incident Response"
+        "Incident Response",
+        "Wazuh",
+        "SPLUNK"
       ],
       "name": "Cybersecurity"
     }
