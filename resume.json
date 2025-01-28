@@ -150,7 +150,7 @@
         "L3 Managed Switch"
       ],
       "name": "AI Powered Deep Packet Analyzer",
-      "description": "Currently working on an AI-driven network security model for real-time packet inspection and anomaly detection using Python, Scapy, and Wireshark. The project aims to classify network packets based on signatures, protocols, and traffic patterns to detect security threats proactively. A research paper on the findings is in progress and set to be published in Springer LNNS, focusing on the effectiveness of AI in enhancing cybersecurity defenses."
+      "description": "Developing an AI-driven network security model for real-time packet inspection and anomaly detection using Python, Scapy, and Wireshark. The system classifies packets by signatures, protocols, and traffic patterns to detect threats proactively. A related research paper, highlighting AI’s role in cybersecurity, is set for publication in Springer LNNS."
     },
     {
       "keywords": [
