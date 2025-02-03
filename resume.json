@@ -136,10 +136,11 @@
         "wireless access points",
         "Proxmox node",
         "Ansible",
-        "Zabbix"
+        "Zabbix",
+        "RaspberryPI"
       ],
       "name": "Home Lab",
-      "description": "Built and manage a home lab with virtual machines and containers for hands-on DevOps and DevSecOps experimentation. Automated infrastructure management using Ansible, and monitoring system performance using Grafana, InfluxDB and RestAPI."
+      "description": "For over five years, I have been building and managing a home lab with virtual machines and containers for hands-on DevOps and DevSecOps experimentation. I automate infrastructure management using Ansible and continuously monitor system performance with Grafana, InfluxDB, and REST API."
     },
     {
       "keywords": [
@@ -158,20 +159,24 @@
         "ACS712",
         "Azure",
         "Grafana",
-        "InfluxDB"
+        "InfluxDB",
+        "RaspberryPI"
       ],
-      "name": "IoT Powered Power Over Ethernet Injector and Extractor",
+      "name": "IoT Based Power Over Ethernet Device",
       "description": "Developed an IoT-enabled Power over Ethernet (PoE) system with real-time power monitoring and a cloud-based dashboard for data visualization. Integrated seamlessly with existing network infrastructure, enabling real-time monitoring."
     },
     {
       "keywords": [
-        "RaspberryPI",
-        "AWS (For VPN Tunnel)",
-        "Servo Motors",
-        "Ender3 3D printers"
+        "NMAP",
+        "BurpSuite",
+        "Postman",
+        "SQLi",
+        "XSS",
+        "Cloud Security",
+        "Network Security"
       ],
-      "name": "Multiple 3D Printer Orchestration",
-      "description": "Developed a system for managing multiple 3D printers with centralized control and secure remote access. Automated monitoring and job scheduling, optimizing efficiency and reducing manual intervention."
+      "name": "Freelance Bug Hunting",
+      "description": " For over two years, I have been identifying and reporting security vulnerabilities in web, mobile, and cloud deployments through responsible disclosure programs. I provide remediation steps, detailed PoCs, and clear reproduction steps to help organizations strengthen their security."
     }
   ],
   "awards": [
