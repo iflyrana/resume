@@ -101,7 +101,6 @@
         "Ansible",
         "Docker",
         "Git",
-        "Zabbix",
         "Grafana",
         "Kubernetes"
       ],
@@ -134,9 +133,8 @@
         "Routers",
         "Layer 3 switches",
         "wireless access points",
-        "Proxmox node",
+        "Proxmox",
         "Ansible",
-        "Zabbix",
         "RaspberryPI"
       ],
       "name": "Home Lab",
@@ -167,13 +165,14 @@
     },
     {
       "keywords": [
-        "NMAP",
+        "Nmap",
         "BurpSuite",
         "Postman",
         "SQLi",
         "XSS",
         "Cloud Security",
-        "Network Security"
+        "Network Security",
+        "OWASP"
       ],
       "name": "Freelance Bug Hunting",
       "description": " For over two years, I have been identifying and reporting security vulnerabilities in web, mobile, and cloud deployments through responsible disclosure programs. I provide remediation steps, detailed PoCs, and clear reproduction steps to help organizations strengthen their security."
