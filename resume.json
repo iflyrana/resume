@@ -37,16 +37,29 @@
   ],
   "work": [
     {
-      "location": "Pune, Maharashtra, India",
-      "position": "Intern - Mobile Application Security Tester",
       "website": "",
-      "startDate": "Aug 2024",
-      "endDate": "Nov 2024",
+      "highlights": [
+        "Performed penetration testing on 5G (Telecom) infrastructure",
+        "Performed Secure Code Review (Manual SAST) and manual DAST for Web and Mobile apps",
+        "Reviewed Network architectures and Cloud Deployments from a security standpoint",
+        "Setup and maintained a test 5G core deployment on Kubernetes"
+      ],
+      "company": "Ernst & Young (EY)",
+      "position": "Summer Intern - Cybersecurity",
+      "location": "Pune, Maharashtra, India",
+      "startDate": "Mar 2025",
+      "endDate": "Jun 2025"
+    },
+    {
       "highlights": [
         "Conducted static & dynamic analysis of Android applications using industry-standard tools.",
         "Evaluated application vulnerabilities and reported security flaws with remediation steps.",
         "Applied OWASP Mobile Top 10 techniques to assess security vulnerabilities in Android applications."
       ],
+      "endDate": "Nov 2024",
+      "startDate": "Aug 2024",
+      "location": "Pune, Maharashtra, India",
+      "position": "Intern - Mobile Application Security Tester",
       "company": "Uniken INC"
     },
     {
@@ -55,23 +68,11 @@
         "Performed manual DAST and API penetration testing following OWASP standards.",
         "Compiled security testing reports and recommended fixes to improve web application security."
       ],
-      "company": "Cybage Software",
-      "position": "Intern - Cybersecurity",
-      "location": "Pune, Maharashtra, India",
+      "endDate": "Feb 2024",
       "startDate": "Dec 2023",
-      "endDate": "Feb 2024"
-    },
-    {
-      "highlights": [
-        "Conducted workshops on advanced topics such as DevSecOps, Computer Networking and Network Security",
-        "Deployed and automated cloud infrastructure for CTF events and workshops, ensuring seamless operations.",
-        "Engineered scalable, secure network access solutions for IITB+HSBC CTF events, ensuring high availability and security."
-      ],
-      "company": "PICT CyberCell",
-      "position": "Technical Head",
-      "location": "PICT, Pune",
-      "startDate": "July 2023",
-      "endDate": "Aug 2024"
+      "location": "Pune, Maharashtra, India",
+      "position": "Cybersecurity Intern",
+      "company": "Cybage Software"
     }
   ],
   "skills": [
