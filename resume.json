@@ -140,7 +140,7 @@
         "RaspberryPI"
       ],
       "name": "Home Lab",
-      "description": "For over five years, I have been building and managing a home lab with virtual machines and containers for hands-on DevOps and DevSecOps experimentation. I automate infrastructure management using Ansible and continuously monitor system performance with Grafana, InfluxDB, and REST API."
+      "description": "For over five years, I have been building and managing a home lab with Mikrotik Routers, Layer 3 switches, Access Points, virtual machines and containers for hands-on Networking, Security Testing, DevOps and DevSecOps experimentation. I automate infrastructure management using Ansible and continuously monitor system performance with monitoring tools."
     },
     {
       "keywords": [
