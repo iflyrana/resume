@@ -21,7 +21,7 @@
       "studyType": "BE",
       "startDate": "Dec 2021",
       "endDate": "July 2025 (Expected)",
-      "gpa": "8.76",
+      "gpa": "8.55",
       "institution": "Pune Institute of Computer Technology (SPPU)",
       "location": "Pune, Maharashtra, India"
     },
@@ -39,11 +39,11 @@
     {
       "website": "",
       "highlights": [
-        "Performed penetration testing on 5G (Telecom) infrastructure",
+        "Performed penetration testing on 5G (Telecom) infrastructure and developed tools for protocol testing ",
         "Performed Secure Code Review (Manual SAST) and manual DAST for Web and Mobile apps",
         "Performed Red Teaming Operation (PenTesting) on IT (Networks and Domain)",
         "Reviewed Network architectures and Cloud Deployments from a security standpoint",
-        "Setup and maintained a test 5G core deployment on Kubernetes"
+        "Setup and maintained a test 5G core deployment on Kubernetes for testing purpose"
       ],
       "company": "Ernst & Young (EY)",
       "position": "Summer Intern - Cybersecurity",
