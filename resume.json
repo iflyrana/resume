@@ -41,6 +41,7 @@
       "highlights": [
         "Performed penetration testing on 5G (Telecom) infrastructure",
         "Performed Secure Code Review (Manual SAST) and manual DAST for Web and Mobile apps",
+        "Performed Red Teaming Operation (PenTesting) on IT (Networks and Domain)",
         "Reviewed Network architectures and Cloud Deployments from a security standpoint",
         "Setup and maintained a test 5G core deployment on Kubernetes"
       ],
@@ -176,7 +177,7 @@
         "OWASP"
       ],
       "name": "Freelance Bug Hunting",
-      "description": " For over two years, I have been identifying and reporting security vulnerabilities in web, mobile, and cloud deployments through responsible disclosure programs. I provide remediation steps, detailed PoCs, and clear reproduction steps to help organizations strengthen their security."
+      "description": " For over two years, I have been identifying and reporting security vulnerabilities in web, mobile, network configuration and cloud deployments through responsible disclosure programs. I provide remediation steps, detailed PoCs, and clear reproduction steps to help organizations strengthen their security."
     }
   ],
   "awards": [
