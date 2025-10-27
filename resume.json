@@ -20,8 +20,8 @@
       "area": "Electronics and Telecommunications",
       "studyType": "BE",
       "startDate": "Dec 2021",
-      "endDate": "July 2025 (Expected)",
-      "gpa": "8.55",
+      "endDate": "July 2025",
+      "gpa": "8.75",
       "institution": "Pune Institute of Computer Technology (SPPU)",
       "location": "Pune, Maharashtra, India"
     },
@@ -39,17 +39,33 @@
     {
       "website": "",
       "highlights": [
+        "Executed automated test suites on Neptune routers and analyzed resulting logs to verify protocol stability and operational correctness.",
+        "Performed operational verification post-test to confirm service continuity and validate protocol behavior under real workloads.",
+        "Conducted penetration tests on router firmware and network interfaces to identify exploitable vulnerabilities and attack vectors.",
+        "Investigated and triaged security-related log anomalies, correlating events to reproduce issues and assess impact.",
+        "Verified remediation effectiveness by re-running automation and validating fixes across the Neptune product line.",
+        "Documented findings, attack scenarios, and mitigation steps in clear reports to support product enhancement",
+        "Collaborated with firmware and OS development teams to remediate vulnerabilities and resolve protocol instabilities."
+      ],
+      "company": "Ribbon Communications",
+      "position": "Verification Engineer",
+      "location": "Navi Mumbai (Hybrid)",
+      "startDate": "June 2025",
+      "endDate": "Present"
+    },
+    {
+      "highlights": [
         "Performed penetration testing on 5G (Telecom) infrastructure and developed tools for protocol testing ",
         "Performed Secure Code Review (Manual SAST) and manual DAST for Web and Mobile apps",
         "Performed Red Teaming Operation (PenTesting) on IT (Networks and Domain)",
         "Reviewed Network architectures and Cloud Deployments from a security standpoint",
         "Setup and maintained a test 5G core deployment on Kubernetes for testing purpose"
       ],
-      "company": "Ernst & Young (EY)",
-      "position": "Summer Intern - Cybersecurity",
-      "location": "Pune, Maharashtra, India",
+      "endDate": "Jun 2025",
       "startDate": "Mar 2025",
-      "endDate": "Jun 2025"
+      "location": "Pune, Maharashtra, India",
+      "position": "Summer Intern - Cybersecurity",
+      "company": "Ernst & Young (EY)"
     },
     {
       "highlights": [
@@ -89,12 +105,10 @@
     },
     {
       "keywords": [
-        "DBMS(MySQL)",
-        "OS",
-        "Networking",
+        "Linux",
+        "Advanced Networking",
         "DevOps",
-        "CI/CD",
-        "Cloud Computing"
+        "CI/CD"
       ],
       "name": "Essentials"
     },
@@ -140,7 +154,7 @@
         "RaspberryPI"
       ],
       "name": "Home Lab",
-      "description": "For over five years, I have been building and managing a home lab with Mikrotik Routers, Layer 3 switches, Access Points, virtual machines and containers for hands-on Networking, Security Testing, DevOps and DevSecOps experimentation. I automate infrastructure management using Ansible and continuously monitor system performance with monitoring tools."
+      "description": "For over six years, I have been building and managing a home lab with Mikrotik Routers, Layer 3 switches, Access Points, virtual machines and containers for hands-on Networking, Security Testing, DevOps and DevSecOps experimentation. I automate infrastructure management using Ansible and continuously monitor system performance with monitoring tools."
     },
     {
       "keywords": [
